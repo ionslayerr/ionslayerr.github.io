@@ -117,16 +117,27 @@
 
     <h3>Images:</h3>
     <div class="Images">
-        <!-- Replace with your image URLs -->
-        <p>
-            <img src="https://m.gjcdn.net/fireside-post-image/1000/36629241-8nrsme2p-v4.webp" alt="Inside A Dungeon">
-            <img src="https://m.gjcdn.net/fireside-post-image/1200/36629239-e2g3www2-v4.webp" alt="Healing In Plains">
-        </p>
-        <p>
-            <img src="https://m.gjcdn.net/fireside-post-image/1000/36629224-xytypjpa-v4.webp" alt="Exploring The Darkness">
-            <img src="https://m.gjcdn.net/fireside-post-image/1000/36629231-ubcudvny-v4.webp" alt="Volcanic Arena Battle">
-        </p>
-    </div>
+    <img src="https://m.gjcdn.net/fireside-post-image/1000/36629241-8nrsme2p-v4.webp" alt="Inside A Dungeon">
+    <img src="https://m.gjcdn.net/fireside-post-image/1200/36629239-e2g3www2-v4.webp" alt="Healing In Plains">
+    <img src="https://m.gjcdn.net/fireside-post-image/1000/36629224-xytypjpa-v4.webp" alt="Exploring The Darkness">
+    <img src="https://m.gjcdn.net/fireside-post-image/1000/36629231-ubcudvny-v4.webp" alt="Volcanic Arena Battle">
+</div>
+
+<style>
+.Images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* adjusts columns automatically */
+    gap: 10px; /* space between images */
+}
+
+.Images img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* ensures images scale nicely */
+    border-radius: 5px; /* optional, for rounded corners */
+}
+</style>
+
     <iframe id='kofiframe' src='https://ko-fi.com/ionslayer/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='ionslayer'></iframe>
 </div>
 
